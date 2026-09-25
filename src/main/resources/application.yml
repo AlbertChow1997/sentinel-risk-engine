@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sentinel-risk-engine
+
+server:
+  port: 8081   # 8080 is reserved for the Payment Gateway in Phase 2
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
